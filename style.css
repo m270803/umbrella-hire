@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy' ;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#nav-part2{
+    display: flex;
+    gap: 45px;
+    text-transform: uppercase;
+    justify-content: left;
+}
+
+#nav-part3{
+    text-transform: uppercase;
+    
+}
+
+#nav img{
+    height: 70px;
+    width: 216px;
+}
+
+button{
+    background-color: #cce8e9;
+    text-transform: uppercase;
+    color: black;
+    padding: 18px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    background-color: rgb(164, 209, 213);
+}
+
+#nav-part2 h3:hover{
+    color: rgb(144, 158, 158);
+}
+
+.content{
+    background-color: rgb(164, 215, 234);
+    text-transform: uppercase;
+    text-transform: uppercase;
+    /* font-size: 110px; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-left: 238px; */
+    /* padding-top: 150px; */
+    padding-bottom: 11%;
+    
+}
+
+.content span{
+    background-color: aliceblue;
+    border-radius: 50px;
+    /* padding: 10px 15px; */
+    margin: 0 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 70px;
+    
+}
+
+.content h1{
+    padding-bottom: 20px;
+}
+
+#first-point{
+    padding-top: 10px;
+}
+
+#second-point{
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.content button{
+    margin-bottom: 91px;
+    background-color: aliceblue;
+}
+.content button:hover{
+    background-color: rgb(236, 244, 244);
+}
+
+.content img{
+  height: 400px;
+  /* bottom: 8%; */
+  /* right: 61%; */
+  /* position: absolute; */
+}
+
+  
+  /* Create a grid layout */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Styling for individual cards */
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .content2{
+    background-color: #fefeda;
+  }
+
+  .content2 h1{
+    text-transform: uppercase;
+    text-align: center;
+    
+    padding: 10px 15px 10px 15px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    padding-bottom:100px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .content2 h3{
+    text-transform: uppercase;
+    padding-left: 25px;
+  }
+
+  .content2 img{
+    width: 261px;
+    height: 141px;
+    border: 2px solid;
+    border-radius: 10px;
+    /* margin-top: 6px; */
+    margin-top: 81px;
+    margin-bottom: 6px;
+  }
+
+  .content2 button{
+    margin-top: 6px;
+    background-color: #e9e88d;
+  }
+
+.footer-content{
+  padding-top: 40px;
+} 
+
+.scroll-down{
+  background-color: rgb(164, 215, 234);
+  color: #ffffff;
+}
+
+.scroll-down h3{
+  /* background-color: rgb(164, 215, 234); */
+  text-align: center;
+  /* margin-top: 4%; */
+  /* margin-bottom: %; */
+
+}
+
+.content2 h1 h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1477px) {
+  content.img {
+    display: none;
+  }
+}
+
+#nav #nav-part2 a{
+  text-decoration: none;
+  color: black;
+}
+
+.content-i{
+  text-align: center;
+  margin-left:20%;
+  margin-top: 9%;
+  margin-right: 65px;
+}
+
